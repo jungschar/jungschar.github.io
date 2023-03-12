@@ -1,3 +1,3 @@
-fetch('spiele/index.json')
+fetch('index.md')
   .then(response => response.json())
-  .then(jsonResponse => console.log(jsonResponse))  
+  .then(jsonResponse => console.log(markdown(jsonResponse)))  

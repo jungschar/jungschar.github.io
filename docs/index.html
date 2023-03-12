@@ -1,9 +1,282 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="de">
+
     <head>
-        <title>Jungschar</title>
+
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Other Resources -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/popper.min.js"></script>
+
+        <!-- Custom -->
+        <title>Jungschar Spiele</title>
+        <link rel="icon" type="image/png" href="img/favicon.png">
+
     </head>
-    <body>
-        <p>Hallo Welt!</p>
+
+    <body data-bs-theme="dark">
+        
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="padding: 10px;">
+            <a class="navbar-brand" href="#">Jungschar Wiki</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Spiele</a>
+                    </li>
+                    <li class="nav-item active ml-3">
+                        <a class="nav-link" href="info.html">Infos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Title and Subtitle -->
+        <div class="container">
+            <div class="row">
+                <div class="col text-center mt-5">
+                    <h1 class="display-4">Jungschar Spiele</h1>
+                    <h2 class="lead">Hier findest Du alle dokumentierten Jungschar Spiele<br> und kannst ganz einfach danach suchen.</h2>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Random Games -->
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 mt-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Brauchst Du Inspiration?</h3>
+                            <p>Hier findest Du ein paar zufällige Vorschläge:</p>
+
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div style="padding-left: 15%; padding-right: 15%;">
+                                            <h4>Spiel 1</h4>
+                                            <p>Beschreibung...</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div style="padding-left: 15%; padding-right: 15%;">
+                                            <h4>Spiel 2</h4>
+                                            <p>Beschreibung...</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div style="padding-left: 15%; padding-right: 15%;">
+                                            <h4>Spiel 3</h4>
+                                            <p>Beschreibung...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Search -->
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 mt-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mb-4">Suche</h5>
+                            <form class="justify-content-center">
+
+                                <!-- Inputfield -->
+                                <div class="mb-3">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="search" placeholder="Suchbegriffe...">
+                                    </div>
+                                </div>
+                              
+                                
+                                <div class="row mb-3">
+                                    <!-- weather -->
+                                    <div class="col">
+                                        <label class="form-label">Wetter</label>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="filter1" id="filter1-1" value="option1">
+                                            <label class="form-check-label" for="filter1-1">
+                                                Drinnen
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="filter1" id="filter1-2" value="option2" checked="checked">
+                                            <label class="form-check-label" for="filter1-2">
+                                                Egal
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="filter1" id="filter1-3" value="option3">
+                                            <label class="form-check-label" for="filter1-3">
+                                                Draußen
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- brightness -->
+                                    <div class="col">
+                                        <label class="form-label">Helligkeit</label>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="filter2" id="filter1-1" value="option1">
+                                            <label class="form-check-label" for="filter1-1">
+                                                Hell
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="filter2" id="filter1-2" value="option2" checked="checked">
+                                            <label class="form-check-label" for="filter1-2">
+                                                Egal
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="filter2" id="filter1-3" value="option3">
+                                            <label class="form-check-label" for="filter1-3">
+                                                Dunkel
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="row mb-3">
+                                    <!-- weather -->
+                                    <div class="col">
+                                        <label class="form-label">Anzahl Mitarbeiter</label>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="filter3" id="filter1-1" value="option1">
+                                            <label class="form-check-label" for="filter1-1">
+                                                wenig
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="filter3" id="filter1-2" value="option2" checked="checked">
+                                            <label class="form-check-label" for="filter1-2">
+                                                normal
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="filter3" id="filter1-3" value="option3">
+                                            <label class="form-check-label" for="filter1-3">
+                                                viel
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- brightness -->
+                                    <div class="col">
+                                        <label class="form-label">Anzahl Kinder</label>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="filter4" id="filter1-1" value="option1">
+                                            <label class="form-check-label" for="filter1-1">
+                                                wenig
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="filter4" id="filter1-2" value="option2" checked="checked">
+                                            <label class="form-check-label" for="filter1-2">
+                                                normal
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="filter4" id="filter1-3" value="option3">
+                                            <label class="form-check-label" for="filter1-3">
+                                                viel
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                                <!-- Submit Button -->
+                                <div class="d-grid gap-2">
+                                    <button class="btn btn-primary" type="submit">Los!</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-5">
+            <div class="card">
+              <div class="card-header">
+                <h5 class="card-title text-center">Ergebnisse</h5>
+              </div>
+              <div class="card-body table-responsive">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Spiel</th>
+                      <th>Wetter</th>
+                      <th>Helligkeit</th>
+                      <th>Mitarbeiter</th>
+                      <th>Kinder</th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Row 1, Column 1</td>
+                      <td>Row 1, Column 2</td>
+                      <td>Row 1, Column 3</td>
+                      <td>Row 1, Column 4</td>
+                      <td>Row 1, Column 5</td>
+                      
+                    </tr>
+                    <tr>
+                      <td>Row 2, Column 1</td>
+                      <td>Row 2, Column 2</td>
+                      <td>Row 2, Column 3</td>
+                      <td>Row 2, Column 4</td>
+                      <td>Row 2, Column 5</td>
+                      
+                    </tr>
+                    <tr>
+                      <td>Row 3, Column 1</td>
+                      <td>Row 3, Column 2</td>
+                      <td>Row 3, Column 3</td>
+                      <td>Row 3, Column 4</td>
+                      <td>Row 3, Column 5</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          
+
+        <!-- Footer -->
+        <footer class="bg-dark text-center text-lg-start">
+            <div class="container p-4">
+                <!-- empty -->
+            </div>
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2023 - Jungschar Wiki ist von <a href="https://github.com/eliastheis" class="text-decoration-none">@eliastheis</a> und ist <a href="https://github.com/jungschar/jungschar.github.io" class="text-decoration-none">Open-Source</a>
+            </div>
+        </footer>
+          
+
     </body>
+
 </html>

@@ -1,0 +1,31 @@
+{
+    "spiele": [
+        {
+            "name": "Stratego",
+            "url": "stratego",
+            "wetter": "draussen",
+            "helligkeit": "hell",
+            "anz_ma": "normal",
+            "anz_kinder": "viel",
+            "suchbegriffe": [
+                "stratego",
+                "strategie",
+                "geländespiel"
+            ]
+        },
+        {
+            "name": "Fahneklauen",
+            "url": "fahneklauen",
+            "wetter": "draussen",
+            "helligkeit": "hell",
+            "anz_ma": "normal",
+            "anz_kinder": "normal",
+            "suchbegriffe": [
+                "fahneklauen",
+                "fahne",
+                "klauen",
+                "geländespiel"
+            ]
+        }
+    ]
+}

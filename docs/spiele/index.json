@@ -3,6 +3,7 @@
         {
             "name": "Stratego",
             "url": "stratego",
+            "kurzbeschreibung": "Der Klassiker der geländespiele",
             "wetter": "draussen",
             "helligkeit": "hell",
             "anz_ma": "normal",
@@ -16,6 +17,7 @@
         {
             "name": "Fahne klauen",
             "url": "fahne-klauen",
+            "kurzbeschreibung": "Der Klassiker der geländespiele",
             "wetter": "draussen",
             "helligkeit": "hell",
             "anz_ma": "normal",
@@ -30,6 +32,7 @@
         {
             "name": "Catch The Color",
             "url": "catch-the-color",
+            "kurzbeschreibung": "Sammel alle Farben, aber bloß kein schwarz!",
             "wetter": "draussen",
             "helligkeit": "hell",
             "anz_ma": "viele",
@@ -44,6 +47,7 @@
         {
             "name": "Tag der Erfinder",
             "url": "tag-der-erfinder",
+            "kurzbeschreibung": "Erfinden was das Zeug hält!",
             "wetter": "egal",
             "helligkeit": "egal",
             "anz_ma": "normal",

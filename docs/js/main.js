@@ -35,7 +35,7 @@ function buildHtmlForCarousel(gamesList) {
     let ret = "";
     for (let i = 0; i < gamesList.length; i++) {
         let gameName = gamesList[i]["name"];
-        let gameDescription = limitString(gamesList[i]["kurzbeschreibung"], 30);
+        let gameDescription = limitString(gamesList[i]["kurzbeschreibung"], 100);
         let url = gamesList[i]["url"];
         let active = "";
         if (i == 0) active = "active";

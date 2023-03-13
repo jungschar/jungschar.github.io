@@ -32,7 +32,7 @@
         {
             "name": "Catch The Color",
             "url": "catch-the-color",
-            "kurzbeschreibung": "Bei dem Spiel müssen die Kinder Unterschriften von Mitarbeitern auf einem Zettel sammeln, wobei jeder Mitarbeiter eine andere Farbe hat und die Farbe schwarz als "böse" gilt. Die Mitarbeiter versuchen, ihre Farbe geheim zu halten und untereinander zu tauschen. Wenn ein Kind eine Unterschrift in jeder Farbe sammelt, erhält es Punkte. Wenn jedoch eine schwarze Unterschrift auf dem Zettel steht, ist dieser wertlos und das Kind muss einen neuen Zettel nehmen.",
+            "kurzbeschreibung": "Bei dem Spiel müssen die Kinder Unterschriften von Mitarbeitern auf einem Zettel sammeln, wobei jeder Mitarbeiter eine andere Farbe hat und die Farbe schwarz als 'böse' gilt. Die Mitarbeiter versuchen, ihre Farbe geheim zu halten und untereinander zu tauschen. Wenn ein Kind eine Unterschrift in jeder Farbe sammelt, erhält es Punkte. Wenn jedoch eine schwarze Unterschrift auf dem Zettel steht, ist dieser wertlos und das Kind muss einen neuen Zettel nehmen.",
             "wetter": "draussen",
             "helligkeit": "hell",
             "anz_ma": "viele",

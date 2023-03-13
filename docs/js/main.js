@@ -1,7 +1,7 @@
 function handleGames(games) {
 
     // Get the games
-    games = games["games"]
+    games = games["spiele"]
 
     // shuffle the games
     for (let i = games.length - 1; i > 0; i--) {

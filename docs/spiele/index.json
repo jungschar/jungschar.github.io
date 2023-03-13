@@ -6,7 +6,7 @@
             "wetter": "draussen",
             "helligkeit": "hell",
             "anz_ma": "normal",
-            "anz_kinder": "viel",
+            "anz_kinder": "viele",
             "suchbegriffe": [
                 "stratego",
                 "strategie",
@@ -14,8 +14,8 @@
             ]
         },
         {
-            "name": "Fahneklauen",
-            "url": "fahneklauen",
+            "name": "Fahne klauen",
+            "url": "fahne-klauen",
             "wetter": "draussen",
             "helligkeit": "hell",
             "anz_ma": "normal",
@@ -25,6 +25,33 @@
                 "fahne",
                 "klauen",
                 "geländespiel"
+            ]
+        },
+        {
+            "name": "Catch The Color",
+            "url": "catch-the-color",
+            "wetter": "draussen",
+            "helligkeit": "hell",
+            "anz_ma": "viele",
+            "anz_kinder": "normal",
+            "suchbegriffe": [
+                "farben",
+                "schwarz",
+                "bunt",
+                "geländespiel"
+            ]
+        },
+        {
+            "name": "Tag der Erfinder",
+            "url": "tag-der-erfinder",
+            "wetter": "egal",
+            "helligkeit": "egal",
+            "anz_ma": "normal",
+            "anz_kinder": "normal",
+            "suchbegriffe": [
+                "Erfindung",
+                "kreativ",
+                "Zettel"
             ]
         }
     ]

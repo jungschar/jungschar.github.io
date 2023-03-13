@@ -1,25 +1,3 @@
-function buildHtmlForCarousel(gamesList) {
-    let ret = "";
-    for (let i = 0; i < gamesList.length; i++) {
-        let gameName = gamesList[i]["name"];
-        let gameDescription = gamesList[i]["kurzbeschreibung"];
-        let url = gamesList[i]["url"];
-        let active = "";
-        if (i == 0) active = "active";
-        let html = `
-        <div class="carousel-item ${active}">
-            <div style="padding-left: 15%; padding-right: 15%;">
-                <a href="/spiele/${url}/" class="text-decoration-none"><h4>${gameName}</h4></a>
-                <p>${gameDescription}</p>
-            </div>
-        </div>
-        `;
-        ret += html;
-    }
-    return ret;
-}
-
-
 function shuffleList(list) {
     for (let i = list.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -45,10 +23,40 @@ function sortListByName(list) {
 }
 
 
+function limitString(str, limit) {
+    if (str.length > limit) {
+        return str.substring(0, limit) + "...";
+    }
+    return str;
+}
+
+
+function buildHtmlForCarousel(gamesList) {
+    let ret = "";
+    for (let i = 0; i < gamesList.length; i++) {
+        let gameName = gamesList[i]["name"];
+        let gameDescription = limitString(gamesList[i]["kurzbeschreibung"], 30);
+        let url = gamesList[i]["url"];
+        let active = "";
+        if (i == 0) active = "active";
+        let html = `
+        <div class="carousel-item ${active}">
+            <div style="padding-left: 15%; padding-right: 15%;">
+                <a href="/spiele/${url}/" class="text-decoration-none"><h4>${gameName}</h4></a>
+                <p>${gameDescription}</p>
+            </div>
+        </div>
+        `;
+        ret += html;
+    }
+    return ret;
+}
+
+
 function buildHtmlForList(gamesList) {
     let ret = `
     <div class="card-header">
-        <h5 class="card-title text-center">Ergebnisse</h5>
+        <h5 class="card-title text-center">Ergebnisse (alphabetisch sortiert)</h5>
     </div>`
     for (let i = 0; i < gamesList.length; i++) {
         let gameName = gamesList[i]["name"];

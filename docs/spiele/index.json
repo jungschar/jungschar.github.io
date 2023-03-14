@@ -57,6 +57,21 @@
                 "kreativ",
                 "Zettel"
             ]
+        },
+        {
+            "name": "A kaputt",
+            "url": "a-kaputt",
+            "kurzbeschreibung": "Ein Fänger muss Gegner finden und ein 'A' aus Stöcken bewachen. Gegener müssen das 'A' kaputt machen.",
+            "wetter": "draussen",
+            "helligkeit": "dunkel",
+            "anz_ma": "wenig",
+            "anz_kinder": "normal",
+            "suchbegriffe": [
+                "Wald",
+                "Stöcke",
+                "suchen",
+                "Namen"
+            ]
         }
     ]
 }

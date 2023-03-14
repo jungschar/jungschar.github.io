@@ -7,12 +7,13 @@ und kannst ganz einfach danach suchen.
 - Fahne klauen
 - Catch the color
 - Tag der Erfinder
+- A kaputt
 
 ## Wie man ein Spiel hinzufügt
 1. Eintrag in `docs/spiele/index.json` hinzufügen. Folgende Felder müssen eingetragen werden:
  - `name`: Anzeigename des Spiels (Leerzeichen und sonstige Sonderzeichen erlaubt, aber kein `"`)
  - `url`: Dieser Text darf nur als kleinen Buchstaben, Zahlen und Bindestrichen bestehen ohne sonstige Sonderzeichen
- - `kurzbeschreibung`: Eine sehr kurze Beschreibung, zur Wiedererkennung des Spiels (max. 1 Satz)
+ - `kurzbeschreibung`: Eine sehr kurze Beschreibung, zur Wiedererkennung des Spiels (ca. 3 Sätze)
  - `wetter`: Mögliche Werte: `draussen`, `drinnen`, `egal`
  - `helligkeit`: Mögliche Werte: `hell`, `dunkel`, `egal`
  - `anz_ma`: Anzahl Mitarbeiter; Mögliche Werte: `wenig`, `normal`, `viel`

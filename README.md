@@ -16,8 +16,8 @@ und kannst ganz einfach danach suchen.
  - `kurzbeschreibung`: Eine sehr kurze Beschreibung, zur Wiedererkennung des Spiels (ca. 3 Sätze)
  - `wetter`: Mögliche Werte: `draussen`, `drinnen`, `egal`
  - `helligkeit`: Mögliche Werte: `hell`, `dunkel`, `egal`
- - `anz_ma`: Anzahl Mitarbeiter; Mögliche Werte: `wenig`, `normal`, `viel`
- - `anz_kinder`: Anzahl Kinder; Mögliche Werte: `wenig`, `normal`, `viel`
+ - `anz_ma`: Anzahl Mitarbeiter; Mögliche Werte: `wenig`, `normal`, `viele`
+ - `anz_kinder`: Anzahl Kinder; Mögliche Werte: `wenig`, `normal`, `viele`
  - `suchbegriffe`: Dieses Feld ist ein JSON-Array aus Strings und sollte ähnliche Begriffe zu vereinfachten Suche enthalten
 2. Ordner in `docs/spiele/` erstellen mit dem gleichen Namen wie das `url`-Feld in der `docs/spiele/index.json`
 3. Die Datei `index.md` in `docs/spiele/<url>/` erstellen und alle Infos über das Spiel in [Markdown](https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) verfassen. [Hier](https://github.com/adamvleggett/drawdown) stehen alle unterstützen funktionen von Markown.

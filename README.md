@@ -2,12 +2,12 @@
 [Hier](https://jungschar.github.io/) findest Du alle dokumentierten Jungschar Spiele
 und kannst ganz einfach danach suchen.
 
-## Dokumentierte Spiele
-- Stratego
-- Fahne klauen
-- Catch the color
-- Tag der Erfinder
-- A kaputt
+## Dokumentierte Spiele (alphabetisch sortiert)
+- [A kaputt](https://jungschar.github.io/spiele/a-kaputt)
+- [Catch the color](https://jungschar.github.io/spiele/catch-the-color)
+- [Fahne klauen](https://jungschar.github.io/spiele/fahne-klauen)
+- [Stratego](https://jungschar.github.io/spiele/stratego)
+- [Tag der Erfinder](https://jungschar.github.io/spiele/tag-der-erfinder)
 
 ## Wie man ein Spiel hinzufügt
 1. Eintrag in `docs/spiele/index.json` hinzufügen. Folgende Felder müssen eingetragen werden:
@@ -22,5 +22,5 @@ und kannst ganz einfach danach suchen.
 2. Ordner in `docs/spiele/` erstellen mit dem gleichen Namen wie das `url`-Feld in der `docs/spiele/index.json`
 3. Die Datei `index.md` in `docs/spiele/<url>/` erstellen und alle Infos über das Spiel in [Markdown](https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) verfassen. [Hier](https://github.com/adamvleggett/drawdown) stehen alle unterstützen funktionen von Markown.
 4. Das Python-Skript `docs/copy_game_index_to_all_games.py` ausführen
-5. In dieser `README.md` unter "Dokumentierte Spiele" das Spiel hinzufügen
+5. In dieser `README.md` unter "Dokumentierte Spiele" das Spiel hinzufügen (sortiert)
 6. Commit und Push 😀

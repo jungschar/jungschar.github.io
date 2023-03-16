@@ -11,7 +11,19 @@
             "suchbegriffe": [
                 "stratego",
                 "strategie",
-                "geländespiel"
+                "geländespiel",
+                "verstecken",
+                "Flagge",
+                "Soldaten",
+                "Strategokarten",
+                "Rang",
+                "Feind",
+                "Eroberung",
+                "Spione",
+                "Team",
+                "Kampf",
+                "Taktik",
+                "Spielregeln"
             ]
         },
         {
@@ -23,10 +35,23 @@
             "anz_ma": "normal",
             "anz_kinder": "normal",
             "suchbegriffe": [
-                "fahneklauen",
-                "fahne",
-                "klauen",
-                "geländespiel"
+                "Fahne",
+                "Gebiet",
+                "Team",
+                "Verstecken",
+                "geländespiel",
+                "Gegner",
+                "Abklatschen",
+                "Gefangene",
+                "Gefängnis",
+                "Befreiung",
+                "Sieg",
+                "Spiel",
+                "Ziel",
+                "Wettbewerb",
+                "Strategie",
+                "Taktik",
+                "Spielregeln"
             ]
         },
         {
@@ -38,10 +63,23 @@
             "anz_ma": "viele",
             "anz_kinder": "normal",
             "suchbegriffe": [
-                "farben",
+                "Unterschriften",
+                "Mitarbeiter",
+                "Farbe",
                 "schwarz",
-                "bunt",
-                "geländespiel"
+                "Geheimhaltung",
+                "Tausch",
+                "Punkte",
+                "Zettel",
+                "Wertlos",
+                "Zettel",
+                "Sammeln",
+                "Spiel",
+                "Kinder",
+                "Wettbewerb",
+                "Strategie",
+                "Taktik",
+                "Spielregeln"
             ]
         },
         {
@@ -53,24 +91,52 @@
             "anz_ma": "normal",
             "anz_kinder": "normal",
             "suchbegriffe": [
-                "Erfindung",
+                "Tag der Erfinder",
                 "kreativ",
-                "Zettel"
+                "Kleingruppe",
+                "schreiben",
+                "Erfindungen",
+                "Patentamt",
+                "Pläne",
+                "Patente",
+                "Geld",
+                "Wirtschaft",
+                "Macht",
+                "Machtpunkte",
+                "Sammeln",
+                "Wettbewerb",
+                "Strategie",
+                "Taktik",
+                "Spielregeln"
             ]
         },
         {
             "name": "A kaputt",
             "url": "a-kaputt",
-            "kurzbeschreibung": "Ein Fänger muss Gegner finden und ein 'A' aus Stöcken bewachen. Gegener müssen das 'A' kaputt machen.",
+            "kurzbeschreibung": "Ein Fänger muss Gegner finden und ein \"A\" aus Stöcken bewachen. Gegener müssen das \"A\" kaputt machen.",
             "wetter": "draussen",
             "helligkeit": "dunkel",
             "anz_ma": "wenig",
             "anz_kinder": "normal",
             "suchbegriffe": [
-                "Wald",
+                "A kaputt",
                 "Stöcke",
-                "suchen",
-                "Namen"
+                "Stock",
+                "Wald",
+                "Natur",
+                "Fänger",
+                "Gegner",
+                "Spielgelände",
+                "Verstecken",
+                "Sichtkontakt",
+                "Position",
+                "Gefangene",
+                "Befreiung",
+                "Spiel",
+                "Wettbewerb",
+                "Strategie",
+                "Taktik",
+                "Spielregeln"
             ]
         }
     ]

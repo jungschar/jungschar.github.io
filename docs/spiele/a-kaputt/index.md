@@ -8,8 +8,8 @@ Der Fänger läuft rum und versucht Gegner aufzuspüren. Bei Sichkontakt muss er
 **Wenn** alle Gegner gefangen sind, wird einer neuer Fänger bestimmt (z.B. letzter Gefangener) und das Spiel beginnt von vorn. Ggf. kann auch nach bestimmter Zeit ein neuer Fänger bestimmt werden.
 
 ## Vorbereitung
-- Spielgebiet raussuchen
-- Namensrunde einplanen
+[ ] Spielgebiet raussuchen
+[ ] Namensrunde einplanen
 
 ## Hinweise
 - Vor Beginn sollte man nochmal eine Namensrunde machen

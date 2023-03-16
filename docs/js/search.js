@@ -117,6 +117,9 @@ function handleSearch(games, params) {
         game.matchingScore += getMatchingScoreForGameProperties(game, params);
     });
 
+    // shuffle games to make the order more random
+    shuffleList(games)
+
     // Step 3: sort games by matching score in descending order
     games.sort((a, b) => b.matchingScore - a.matchingScore);
 

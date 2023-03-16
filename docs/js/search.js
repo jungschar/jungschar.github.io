@@ -93,21 +93,24 @@ function handleSearch(games, params) {
     games.forEach(game => game.matchingScore = 0);
 
     // Step 1: searching for text
-    const searchTokens = splitIntoTokens(replaceUmlauts(params.search_text));
-    games.forEach(game => {
+    if (params.search_text) {
+        // split search text into tokens
+        const searchTokens = splitIntoTokens(replaceUmlauts(params.search_text));
+        games.forEach(game => {
 
-        // prepare all tokens
-        game.titleTokens = splitIntoTokens(game.name);
-        // game.suchbegriffe (keywords)
-        game.markdownTokens = splitIntoTokens(game.markdown);
-        game.shortDescriptionTokens = splitIntoTokens(game.kurzbeschreibung);
+            // prepare all tokens
+            game.titleTokens = splitIntoTokens(game.name);
+            // game.suchbegriffe (keywords)
+            game.markdownTokens = splitIntoTokens(game.markdown);
+            game.shortDescriptionTokens = splitIntoTokens(game.kurzbeschreibung);
 
-        // calculate matching score for each game based on search tokens
-        game.matchingScore += getMatchingScoreForTokens(game, searchTokens);
+            // calculate matching score for each game based on search tokens
+            game.matchingScore += getMatchingScoreForTokens(game, searchTokens);
 
-        // simply check if the search text is contained anywhere
-        game.matchingScore += getMatchingScoreForText(game, replaceUmlauts(params.search_text.toLowerCase()));
-    });
+            // simply check if the search text is contained anywhere
+            game.matchingScore += getMatchingScoreForText(game, replaceUmlauts(params.search_text.toLowerCase()));
+        });
+    }
 
     // Step 2: use game properties to calculate matching scores
     games.forEach(game => {

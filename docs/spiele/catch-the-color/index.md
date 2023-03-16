@@ -14,9 +14,9 @@ Jedes Kind darf immer nur genau einen Zettel dabei, also tauscht es den Zettel i
 
 ## Punktevergabe
 
-| Anzahl Farben | 2 | 3 | 4 | 5 | 6 |
-| ------ | ------ | ------ | ------ | ------ | ------ |
-| Punkte | 3 | 5 | 8 | 13 | 20 |
+| Anzahl Farben | 2      | 3      | 4      | 5      | 6      |
+| ------        | ------ | ------ | ------ | ------ | ------ |
+| Punkte        | 3      | 5      | 8      | 13     | 20     |
 
 
 ## Hinweise

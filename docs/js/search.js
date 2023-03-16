@@ -72,13 +72,28 @@ function getMatchingScoreForGameProperties(game, params) {
 }
 
 
+function getMatchingScoreForText(game, txt) {
+    let score = 0;
+    if (game.name.toLowerCase().includes(txt)) score += 500;
+    if (game.suchbegriffe.includes(txt)) score += 250;
+    if (game.kurzbeschreibung.toLowerCase().includes(txt)) score += 100;
+    if (game.markdown.toLowerCase().includes(txt)) score += 50;
+    return score;
+}
+
+
+function replaceUmlauts(txt) {
+    return txt.replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/ß/g, 'ss');
+}
+
+
 function handleSearch(games, params) {
 
     // Step 0: assign an initial matching score of 0 to each game
     games.forEach(game => game.matchingScore = 0);
 
     // Step 1: searching for text
-    const searchTokens = splitIntoTokens(params.search_text);
+    const searchTokens = splitIntoTokens(replaceUmlauts(params.search_text));
     games.forEach(game => {
 
         // prepare all tokens
@@ -89,6 +104,9 @@ function handleSearch(games, params) {
 
         // calculate matching score for each game based on search tokens
         game.matchingScore += getMatchingScoreForTokens(game, searchTokens);
+
+        // simply check if the search text is contained anywhere
+        game.matchingScore += getMatchingScoreForText(game, replaceUmlauts(params.search_text.toLowerCase()));
     });
 
     // Step 2: use game properties to calculate matching scores
@@ -114,7 +132,7 @@ fetch('/spiele/index.json')
             fetch(`/spiele/${game.url}/index.md`)
             .then(response => response.text())
             .then(markdown => {
-                game.markdown = markdown;
+                game.markdown = replaceUmlauts(markdown);
                 console.log(`Loaded markdown for game "${game.name}" (/spiele/${game.url})`);
             })
             .catch(error => {

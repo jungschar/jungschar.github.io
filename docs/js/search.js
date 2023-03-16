@@ -13,16 +13,16 @@ function getMatchingScoreForTokens(game, searchTokens) {
     let score = 0;
     searchTokens.forEach(searchToken => {
         if (game.titleTokens.includes(searchToken)) {
-            score += 10;
+            score += 1000;
         }
         if (game.suchbegriffe.includes(searchToken)) {
-            score += 5;
+            score += 500;
         }
         if (game.shortDescriptionTokens.includes(searchToken)) {
-            score += 2;
+            score += 200;
         }
         if (game.markdownTokens.includes(searchToken)) {
-            score += 1;
+            score += 100;
         }
     });
     return score;
@@ -31,9 +31,43 @@ function getMatchingScoreForTokens(game, searchTokens) {
 
 function getMatchingScoreForGameProperties(game, params) {
     let score = 0;
-    console.log(game);
-    console.log(params);
-    console.log("\n");
+
+    // handle weather
+    if (game.wetter == "egal") {
+        if (params.wetter == "egal") score += 1;
+    } else if (game.wetter == "drinnen") {
+        if (params.wetter == "drinnen") score += 5;
+    } else if (game.wetter == "draussen") {
+        if (params.wetter == "draussen") score += 5;
+    }
+
+    // handle brightness
+    if (game.helligkeit == "egal") {
+        if (params.helligkeit == "egal") score += 1;
+    } else if (game.helligkeit == "hell") {
+        if (params.helligkeit == "hell") score += 4;
+    } else if (game.helligkeit == "dunkel") {
+        if (params.helligkeit == "dunkel") score += 4;
+    }
+
+    // handle number of kids
+    if (game.anz_kinder == "normal") {
+        if (params["anzahl-kinder"] == "normal") score += 1;
+    } else if (game.anz_kinder == "wenig") {
+        if (params["anzahl-kinder"] == "wenig") score += 3;
+    } else if (game.anz_kinder == "viele") {
+        if (params["anzahl-kinder"] == "viele") score += 3;
+    }
+
+    // handle number of adults
+    if (game.anz_ma == "normal") {
+        if (params["anzahl-mitarbeiter"] == "normal") score += 1;
+    } else if (game.anz_ma == "wenig") {
+        if (params["anzahl-mitarbeiter"] == "wenig") score += 3;
+    } else if (game.anz_ma == "viele") {
+        if (params["anzahl-mitarbeiter"] == "viele") score += 3;
+    }
+
     return score;
 }
 
@@ -48,10 +82,10 @@ function handleSearch(games, params) {
     games.forEach(game => {
 
         // prepare all tokens
-        game.titleTokens = splitIntoTokens(game.title);
+        game.titleTokens = splitIntoTokens(game.name);
         // game.suchbegriffe (keywords)
         game.markdownTokens = splitIntoTokens(game.markdown);
-        game.shortDescriptionTokens = splitIntoTokens(game.short_description);
+        game.shortDescriptionTokens = splitIntoTokens(game.kurzbeschreibung);
 
         // calculate matching score for each game based on search tokens
         game.matchingScore += getMatchingScoreForTokens(game, searchTokens);
@@ -64,6 +98,9 @@ function handleSearch(games, params) {
 
     // Step 3: sort games by matching score in descending order
     games.sort((a, b) => b.matchingScore - a.matchingScore);
+
+    // Step 4: render the results
+    document.getElementById("results").innerHTML = buildHtmlForList(games) ;
 }
 
 

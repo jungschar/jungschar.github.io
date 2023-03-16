@@ -127,7 +127,7 @@ function buildSubtitleText(game) {
 function buildHtmlForList(gamesList) {
     let ret = `
     <div class="card-header">
-        <h5 class="card-title text-center">Ergebnisse (alphabetisch sortiert)</h5>
+        <h5 class="card-title text-center">Ergebnisse</h5>
     </div>`;
     for (let i = 0; i < gamesList.length; i++) {
         let gameName = gamesList[i]["name"];

@@ -1,2 +1,2 @@
-# Fahne klauen
+# Fahne klauen (Geländespiel)
 Hier steht irgendwann die Beschreibung

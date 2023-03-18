@@ -10,8 +10,9 @@ Es gibt zwei Gruppen die versuchen möglichst viel Macht zu sammeln. Dafür müs
 [ ] Mitarbeiter Stationen und Gruppen zuweisen
 [ ] Tische für Gruppen aufstellen (am besten räumlich getrennt)
 
-### Pläne/Patente
-[Kopiervorlage](Kopiervorlage.pdf)
+
+### Pläne/Patente Vorlage
+[Download Kopiervorlage](Kopiervorlage.pdf)
 
 ## Spielerklärung (einfach)
 - Kinder werden in Gruppen aufgeteilt (ca. 5 Personen pro Gruppe)

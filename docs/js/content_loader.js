@@ -9,14 +9,30 @@ function extractGameUrl(url) {
 }
 
 
-function setHtmlTitle(response) {
+function setHtmlHead(response) {
+    // find game in json file
     const name = extractGameUrl(window.location.href);
     if (!name) return;
     const games = response.spiele;
     for (let i = 0; i < games.length; i++) {
-        if (games[i].url === name) {
+        if (games[i].url === name) { // found game
+
+            // set html title
             document.title = games[i].name + " - Jungschar Spiele"
-            break;
+
+            // set meta description
+            const meta = document.createElement("meta");
+            meta.name = "description";
+            meta.content = games[i].kurzbeschreibung;
+            document.getElementsByTagName("head")[0].appendChild(meta);
+
+            // set meta keywords
+            const meta2 = document.createElement("meta");
+            meta2.name = "keywords";
+            meta2.content = games[i].suchbegriffe;
+            document.getElementsByTagName("head")[0].appendChild(meta2);
+
+            break; // stop searching
         }
     }
 }
@@ -30,4 +46,4 @@ fetch("index.md")
 // load json file and set html title
 fetch("/spiele/index.json")
     .then(response => response.json())
-    .then(response => setHtmlTitle(response));
+    .then(response => setHtmlHead(response));

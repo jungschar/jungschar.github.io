@@ -1,8 +1,8 @@
 ---
 name: Fehler melden
 about: Erstelle einen Fehlerbericht
-title: "[BUG]"
-labels: ''
+title: "[FEHLER] "
+labels: bug
 assignees: eliastheis
 
 ---

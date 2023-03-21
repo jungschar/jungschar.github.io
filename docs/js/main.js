@@ -108,7 +108,7 @@ function buildSubtitleText(game) {
         ret += "wenigen Kindern";
 
     } else if (game["anz_ma"] == "normal" && game["anz_kinder"] == "viele") {
-        ret += "viele Kindern";
+        ret += "vielen Kindern";
 
     } else if (game["anz_ma"] == "viele" && game["anz_kinder"] == "wenig") {
         ret += "wenigen Mitarbeitern und vielen Kindern";

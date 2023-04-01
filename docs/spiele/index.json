@@ -138,6 +138,32 @@
                 "Taktik",
                 "Spielregeln"
             ]
+        },
+        {
+            "name": "Streichholzschmuggelspiel",
+            "url": "streichholzschmuggelspiel",
+            "kurzbeschreibung": "Es gibt Schmuggler und Polizisten. Die Schmuggler müssen die Streichhölzer zur der anderen Seite bringen, ohne erwischt zu werden. Die Polizisten müssen die Schmuggler aufhalten.",
+            "wetter": "draussen",
+            "helligkeit": "hell",
+            "anz_ma": "normal",
+            "anz_kinder": "normal",
+            "suchbegriffe": [
+                "Streichholzschmuggelspiel",
+                "Streichhölzer",
+                "Schmuggler",
+                "Polizisten",
+                "Spielgelände",
+                "Verstecken",
+                "Sichtkontakt",
+                "Position",
+                "Gefangene",
+                "Befreiung",
+                "Spiel",
+                "Wettbewerb",
+                "Strategie",
+                "Taktik",
+                "Spielregeln"
+            ]
         }
     ]
 }

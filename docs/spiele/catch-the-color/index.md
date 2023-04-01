@@ -19,7 +19,7 @@ festen Station.
 [ ] Der Station einen oder zwei Mitarbeiter zuweisen
 
 
-# Spielerklärung
+## Spielerklärung
 - An der Station kannst du dir einen leeren Zettel abholen
 - Die Mitarbeiter werden in dem Spielgebiet mit jeweils einem Edding herumlaufen 
 - Laufe zu einem Mitarbeiter und schlage ihn leicht ab, um eine Unterschrift auf deinen Zettel zu bekommen

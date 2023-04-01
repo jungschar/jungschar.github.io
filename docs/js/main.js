@@ -135,13 +135,14 @@ function buildHtmlForList(gamesList) {
         let url = gamesList[i]["url"];
         let subtitleText = buildSubtitleText(gamesList[i]);
         let html = `
-        <div class="card">
+        <div class="container">
             <div class="card-body">
                 <h5><a href="/spiele/${url}" class="text-success">${gameName}</a></h5>
                 <p class="card-text">${gameDescription}</p>
                 <p class="card-text"><small class="text-muted">${subtitleText}</small></p>
             </div>
-        </div>`;
+        </div>
+        <hr>`;
         ret += html;
     }
     return ret;

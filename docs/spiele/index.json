@@ -1,7 +1,7 @@
 {
     "spiele": [
         {
-            "name": "Stratego",
+            "name": "Stratego (Geländespiel)",
             "url": "stratego",
             "kurzbeschreibung": "Ein Geländespiel, bei dem sich zwei Teams auf einem großen Gelände bekämpfen. Jedes Team hat eine Flagge und mehrere Soldaten, die auf Strategokarten abgebildet sind. Wenn ein Spieler einen Gegner berührt, zeigen sie ihre Karten und der höhere Rang führt den Feind ab. Das Spiel endet, wenn eine Flagge erobert oder alle Spione gefangen wurden.",
             "wetter": "draussen",
@@ -27,7 +27,7 @@
             ]
         },
         {
-            "name": "Fahne klauen",
+            "name": "Fahne klauen (Geländespiel)",
             "url": "fahne-klauen",
             "kurzbeschreibung": "Es wird mit zwei gleichgroßen Teams gespielt, die jeweils ihre Fahne im Gebiet des anderen Teams verstecken müssen. Ziel des Spiels ist es, die gegnerische Fahne zu finden und über die Mittellinie zu bringen, ohne von einem Gegner abgeklatscht zu werden. Gefangene kommen ins Gefängnis und können durch Abklatschen ihrer Teammitglieder befreit werden. Wer die meisten Fahnen über das Ziel bringt, gewinnt das Spiel.",
             "wetter": "draussen",
@@ -55,7 +55,7 @@
             ]
         },
         {
-            "name": "Catch The Color",
+            "name": "Catch The Color (Geländespiel)",
             "url": "catch-the-color",
             "kurzbeschreibung": "Bei dem Spiel müssen die Kinder Unterschriften von Mitarbeitern auf einem Zettel sammeln, wobei jeder Mitarbeiter eine andere Farbe hat und die Farbe schwarz als 'böse' gilt. Die Mitarbeiter versuchen, ihre Farbe geheim zu halten und untereinander zu tauschen. Wenn ein Kind eine Unterschrift in jeder Farbe sammelt, erhält es Punkte. Wenn jedoch eine schwarze Unterschrift auf dem Zettel steht, ist dieser wertlos und das Kind muss einen neuen Zettel nehmen.",
             "wetter": "draussen",
@@ -83,7 +83,7 @@
             ]
         },
         {
-            "name": "Tag der Erfinder",
+            "name": "Tag der Erfinder (Stationsspiel)",
             "url": "tag-der-erfinder",
             "kurzbeschreibung": "Es gibt zwei Gruppen die versuchen möglichst viel Macht zu sammeln. Dafür müssen sie am Patentamt Pläne für nützliche Erfindungen abgeben und Patente erwerben, die sie gegen Geld oder bei der Wirtschaft gegen Macht eintauschen können. Das Ziel des Spiels ist es, am Ende die meisten Machtpunkte zu haben.",
             "wetter": "egal",
@@ -111,7 +111,7 @@
             ]
         },
         {
-            "name": "A kaputt",
+            "name": "A kaputt (Geländespiel)",
             "url": "a-kaputt",
             "kurzbeschreibung": "Ein Fänger muss Gegner finden und ein \"A\" aus Stöcken bewachen. Gegener müssen das \"A\" kaputt machen.",
             "wetter": "draussen",
@@ -140,7 +140,7 @@
             ]
         },
         {
-            "name": "Streichholzschmuggelspiel",
+            "name": "Streichholzschmuggelspiel (Geländespiel)",
             "url": "streichholzschmuggelspiel",
             "kurzbeschreibung": "Es gibt Schmuggler und Polizisten. Die Schmuggler müssen die Streichhölzer zur der anderen Seite bringen, ohne erwischt zu werden. Die Polizisten müssen die Schmuggler aufhalten.",
             "wetter": "draussen",

@@ -141,8 +141,10 @@ function buildHtmlForList(gamesList) {
                 <p class="card-text">${gameDescription}</p>
                 <p class="card-text"><small class="text-muted">${subtitleText}</small></p>
             </div>
-        </div>
-        <hr>`;
+        </div>`;
+        if (i < gamesList.length - 1) {
+            html += `<hr>`;
+        }
         ret += html;
     }
     return ret;

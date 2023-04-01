@@ -39,6 +39,16 @@ festen Station.
 | Punkte        | 3      | 5      | 8      | 13     | 20     |
 
 
+## Aufgabe Stationsmitarbeiter
+- Zettel mit Unterschriften entgegennehmen und entsprechende Punkte aufschreiben
+- leere Zettel rausgeben
+
+
+## Aufgabe Herumlaufende Mitarbeiter
+- Zettel von Kindner mit dem Edding unterschreiben
+- Edding mit anderen Mitarbeitern (geheim) tauschen
+
+
 ## Hinweise
 - Es gibt keine Teams, jedes Kind spielt für sich alleine.
 - andere [Quelle](http://spiele.j-crew.de/wiki/Catch_the_color)

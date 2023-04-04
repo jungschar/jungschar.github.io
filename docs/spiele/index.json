@@ -113,7 +113,7 @@
         {
             "name": "A kaputt (Geländespiel)",
             "url": "a-kaputt",
-            "kurzbeschreibung": "Ein Fänger muss Gegner finden und ein \"A\" aus Stöcken bewachen. Gegener müssen das \"A\" kaputt machen. In der Mitte des Spielgeländes wird ein \"A\" aus drei Stöcken gelegt und ein Fänger bestimmt. Die anderen haben eine Minute Zeit zu verschwinden bzw. sich zu verstecken. Der Fänger läuft rum und versucht Gegner aufzuspüren. Bei Sichkontakt muss er zum \"A\" laufen, darauf treten/stehen und ruft dann den Namen und die Position des Gegners. Es können auch mehrere gleichzeitig genannt werden. Wenn es ein Gegner schafft, das \"A\" kaputt zu machen, ruft der Mitarbeiter \"A kaputt!\" und alle Gefangenen sind wieder befreit. Wenn alle Gegner gefangen sind, wird einer neuer Fänger bestimmt (z.B. letzter Gefangener) und das Spiel beginnt von vorn. gf. kann auch nach bestimmter Zeit ein neuer Fänger bestimmt werden.",
+            "kurzbeschreibung": "Das Spiel besteht aus einem Fänger, der das \"A\" aus Stöcken bewacht, während die Gegner versuchen, es zu zerstören. Die Spieler haben eine Minute, um sich zu verstecken, bevor der Fänger sie aufspürt. Wenn der Fänger einen Gegner findet, muss er zum \"A\" laufen, darauf treten und den Namen des Gegners nennen. Wenn das \"A\" zerstört wird, sind alle Gefangenen befreit. Wenn alle Gegner gefangen sind, wird ein neuer Fänger bestimmt. Das Spiel kann auch nach einer bestimmten Zeit einen neuen Fänger haben.",
             "wetter": "draussen",
             "helligkeit": "dunkel",
             "anz_ma": "wenig",

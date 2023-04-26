@@ -6,6 +6,7 @@ ausgetragen
 
 ## Vorbereitung
 [ ] 4 Hütchen für das Gefängnis
+[ ] Klemmbrett um Punkte zu notieren
 
 ## Spielerklärung
 - Es gibt 2 Mannschaften - Fänger und Gegner

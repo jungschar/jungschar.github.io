@@ -164,6 +164,28 @@
                 "Taktik",
                 "Spielregeln"
             ]
+        },
+        {
+            "name": "Bandenkrieg (Geländespiel)",
+            "url": "bandenkrieg",
+            "kurzbeschreibung": "Es herrscht Krieg zwischen zwei Banden. Die Mannschaften versuchen sich gegenseitig gefangen zu nehmen. Die Kämpfe werden mit Schere-Stein-Papier ausgetragen.",
+            "wetter": "draussen",
+            "helligkeit": "hell",
+            "anz_ma": "normal",
+            "anz_kinder": "normal",
+            "suchbegriffe": [
+                "Bandenkrieg",
+                "Krieg",
+                "Banden",
+                "Gefangene",
+                "Gefangennahme",
+                "Schere-Stein-Papier",
+                "Spiel",
+                "Wettbewerb",
+                "Strategie",
+                "Taktik",
+                "Spielregeln"
+            ]
         }
     ]
 }

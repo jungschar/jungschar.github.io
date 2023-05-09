@@ -186,6 +186,30 @@
                 "Taktik",
                 "Spielregeln"
             ]
+        },
+        {
+            "name": "Quiz",
+            "url": "quiz",
+            "kurzbeschreibung": "Ein Quiz mit 5 Kategorien - Allgemeinwissen, Bibel, Jungschar, Action, Natur - Es gibt jeweils 5 Fragen mit 100 bis 500 Punkten. Die Kinder spielen in 2 Gruppen gegeneinander. Die Gruppe mit den meisten Punkten gewinnt.",
+            "wetter": "drinnen",
+            "helligkeit": "egal",
+            "anz_ma": "normal",
+            "anz_kinder": "normal",
+            "suchbegriffe": [
+                "Quiz",
+                "Allgemeinwissen",
+                "Bibel",
+                "Jungschar",
+                "Action",
+                "Natur",
+                "Fragen",
+                "Punkte",
+                "Spiel",
+                "Wettbewerb",
+                "Strategie",
+                "Taktik",
+                "Spielregeln"
+            ]
         }
     ]
 }

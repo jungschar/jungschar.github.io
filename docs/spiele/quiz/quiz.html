@@ -1,0 +1,76 @@
+<!-- Terrible "code", but it works. -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz 💡</title>
+        
+        <script type="text/javascript">
+            function createTable() {
+                categories = ["Allgemeinwissen", "Bibel", "Jungschar", "Action", "Natur"];
+                points = ["100", "200", "300", "400", "500"];
+                
+                html = "<table style=\"width: 100%;\"><tr>";
+                for (var i = 0; i < categories.length; i++)
+                    html += "<th style=\"border: 3px solid #66b55a;\"><h3>" + categories[i] + "</h3></th>";
+
+                html += "</tr><tr>";
+                for (var i = 0; i < points.length; i++) {   
+                    for (var j = 0; j < categories.length; j++)
+                        html += "<td id=\"" + i + "_" + j + "\" style=\"border: 3px solid #383838; width:16%; color: white;\" unselectable=\"on\" onselectstart=\"return false;\" onmousedown=\"return false;\" onclick=\"select('" + i + "', '" + j + "')\"><p class=\"points\">" + points[i] + "</p></td>";
+                    html += "</tr><tr>";
+                }
+
+                html += "</tr></table>";
+                document.getElementById("quiz").innerHTML = html;
+            }
+
+            function select(category, points) {
+                // alert(category + " | " + points);
+                elem = document.getElementById(category + "_" + points);
+                if (elem.style.color == "white")
+                    elem.style.color = "#383838";
+                else
+                    elem.style.color = "white";
+            }
+        </script>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">          
+
+        <style>
+            body {
+                font-family: 'Roboto', sans-serif;
+                font-size: 30pt;
+                text-align: center;
+                background: #181818;
+                color: white;
+                font-weight: bold;
+                padding-left: 5%;
+                padding-right: 5%;
+                padding-top: 2%;
+            }
+
+            td {
+                cursor: pointer;
+            }
+
+            .points {
+                margin: 0.5em;
+            }
+        </style>
+    </head>
+
+    <body onload="createTable()"> <!-- onload just for testing-->
+        <table width="100%">
+            <tr>
+                <td>
+                    <h1>SuperDuperMegaQuiz 💡</h1>
+                </td>
+            </tr>
+        </table>
+        <div style="height: 100%; overflow: auto;">
+            <p id="quiz" style="height: 75%"></p>
+        </div>
+
+    </body>
+</html>

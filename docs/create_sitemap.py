@@ -16,7 +16,7 @@ if __name__ == '__main__':
         f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
         f.write('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
         for url in url_list:
-            f.write(f'<url><loc>https://jungschar.github.io/spiele/{url}</loc></url>\n')
+            f.write(f'<url><loc>https://jungschar.github.io/spiele/{url}/</loc></url>\n')
         f.write('</urlset>\n')
     print('sitemap.xml created')
  

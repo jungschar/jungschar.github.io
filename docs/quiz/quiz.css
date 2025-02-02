@@ -1,0 +1,64 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Ensures equal column widths */
+}
+
+table th,
+table td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+table td:hover {
+    background-color: #bababa;
+}
+
+.pointBox {
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.answerBox {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+}
+dialog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 200px;
+    padding: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+  }
+
+#questionModal {
+    width: 99%;
+    height: 99%;
+    /* center text */
+    justify-content: center;
+    align-items: center;
+}

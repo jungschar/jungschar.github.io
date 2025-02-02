@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table th,
+        table td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Willkommen beim Quiz!</h1>
+
+    <h3>Hier kannst du die Punkte und Fragen bearbeiten:</h3>
+    <span>(einfach anklicken)</span>
+    <table id="quizTable"></table>
+
+    <br>
+    <div>
+        <span>Anzahl Fragen und Kategorien ändern:</span>
+        <button onclick="changeSize()">Ändern</button><br>
+        <span>WARNUNG: Bei Änderung werden alle Fragen gelöscht!</span>
+    </div>
+
+    <br><br><br>
+    <button onclick="downloadLocalStorage()">Alle Fragen herunterladen</button>
+    <button onclick="uploadLocalStorage()">Fragen hochladen</button>
+
+    <button style="background-color: blue; color: white; padding: 10px 20px; font-size: 16px;" onclick="window.location.href = 'game.html'">Quiz starten!</button>
+
+    <script src="getter.js"></script>
+    <script src="quiz.js"></script>
+</body>
+</html>
